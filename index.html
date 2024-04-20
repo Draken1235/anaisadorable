@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Cupid', cursive; /* Use Cupid font */
+            background-image: url('https://i.postimg.cc/Wz8Qjvdn/3ad1c0977821b0ee5a470b5af6d01167.jpg'); /* Cute pink background */
+            background-size: cover;
+            color: #f0f0f0; /* Slightly brighter white font color */
+            text-align: center;
+        }
+        .container {
+            padding: 50px;
+        }
+        .image {
+            border-radius: 10px;
+            margin-bottom: 20px;
+            max-width: 100%; /* Adjust image size to fit perfectly */
+            height: auto;
+        }
+        .gif {
+            max-width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 36px; /* Increase font size for better visibility */
+            margin-bottom: 20px; /* Add space below heading */
+        }
+        h2 {
+            font-size: 24px; /* Increase font size for better visibility */
+        }
+        p {
+            font-size: 18px; /* Increase font size for better visibility */
+            margin-bottom: 20px; /* Add space below paragraphs */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cupid&display=swap" rel="stylesheet"> <!-- Load Cupid font -->
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!!</h1>
+        <div class="tenor-gif-embed" data-postid="27549743" data-share-method="host" data-aspect-ratio="1.35021" data-width="100%">
+            <a href="https://tenor.com/view/food-anime-desserts-yummy-cake-gif-27549743">Food Anime GIF</a>from <a href="https://tenor.com/search/food-gifs">Food GIFs</a>
+        </div>
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <p>hey, hi ! just wanted to remind you that you're adorable as ever and fine as hell and it's your birthday, so you gotta send me a cake :*</p>
+        <div>
+            <img src="https://i.postimg.cc/DZkcPrLG/IMG-20240227-133514.jpg" alt="Photo 1" class="image">
+            <p>well jokes aside (the cake thing wasn't a joke btw) you're the reason i started checking my discord all the time,  had no idea this would happen but it i did and I'm so fucking glad about it, as I've told you already you feel like a clairo song, like a van - gogh's painting - so perfectly beautiful  ! Sometimes.. I don't know how to tell you how much I care ab u without seeming clingy like it'd be so out of blue which you might think as wierd but yea I care abt you ♡</p>
+            <img src="https://i.postimg.cc/hGPJWfnY/IMG-20231025-214152.jpg" alt="Photo 2" class="image">
+            <h2>I've something for you</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nD_5n64c2PQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>You're my</h2>
+            <p id="changing">Diamond</p>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            var text = document.getElementById('changing');
+            var words = ['Diamond', 'Sunshine'];
+            var index = 0;
+            setInterval(function() {
+                text.innerHTML = words[index];
+                index = (index + 1) % words.length;
+            }, 1000);
+        };
+    </script>
+</body>
+</html>
